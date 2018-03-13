@@ -8,9 +8,9 @@ Programas para modificar las opciones de configuración de aplicaciones instalad
 Cuando ejecuto uno de estos programas se modifican los archivos de configuración de las distintas aplicaciones, de manera que evito tener que detener el proceso, luego editar el archivo de configuración buscando cada opción y por último reiniciar el servicio. Todo se hace automáticamente.
 
 ## APLICACIONES
-  motion.conf.sh
-  samba.conf.sh
-  transmission-daemon.conf.sh
+  ·  motion.conf.sh
+  ·  samba.conf.sh
+  ·  transmission-daemon.conf.sh
   
 ## OTROS SCRIPTS
   dhcpcd.conf.sh ->  buscar redes y modificar la configuración de ip estática.

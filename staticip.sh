@@ -1,4 +1,5 @@
 #!/bin/bash
+
 # Intenta conectar con el router local en 192.168.0.1 (Negocio)
 # Si no logra la conexión cambia la ip del archivo dhcpcd.conf por 192.168.1.1 (Casa)
 

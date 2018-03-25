@@ -17,4 +17,4 @@ AuthPass=$2
 UseSTARTTLS=YES">> /etc/ssmtp/ssmtp.conf
 
 echo 'Prueba de correo con ssmtp'
-ssmtp $1 < ~/configs/correoDePrueba.txt
+ssmtp $1 < ~/configs/ssmtp/correoDePrueba.txt

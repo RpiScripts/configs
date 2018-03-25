@@ -11,8 +11,8 @@
 . /home/pi/privado.sh
 
 # Instalación
-sudo apt-get update && sudo apt-get upgrade -y && sudo apt-get install ssmtp
-wait ${!}
+# sudo apt-get update && sudo apt-get upgrade -y && sudo apt-get install ssmtp
+# wait ${!}
 
 if [ -z "$1" ] && USUARIO_GMAIL="$1"
 if [ -z "$2" ] && CLAVE_GMAIL="$2"

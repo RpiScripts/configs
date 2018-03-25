@@ -1,0 +1,5 @@
+To: $1@gmail.com
+From: ssmtp.sh
+Subject: Prueba de correo
+
+El servidor de correo está en funcionamiento.

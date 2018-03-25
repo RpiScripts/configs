@@ -1,0 +1,4 @@
+# Datos privados para la conexión a servidor ftp usada para otros programas.
+FTP_BACKUP_HOST="ftp.host.ftp"
+FTP_BACKUP_USERNAME="usuario"
+FTP_BACKUP_PASSWORD="clave"

@@ -14,8 +14,8 @@
 # sudo apt-get update && sudo apt-get upgrade -y && sudo apt-get install ssmtp
 # wait ${!}
 
-if [ -z "$1" ] && USUARIO_GMAIL="$1"
-if [ -z "$2" ] && CLAVE_GMAIL="$2"
+[ -z "$1" ] && USUARIO_GMAIL="$1"
+[ -z "$2" ] && CLAVE_GMAIL="$2"
 
 sed -i 's/^mailhub=.*/mailhub=smtp.gmail.com:587/g' /etc/ssmtp/ssmtp.conf
 sed -i 's/^#FromLineOverride=YES/FromLineOverride=YES/g' /etc/ssmtp/ssmtp.conf

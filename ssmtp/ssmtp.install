@@ -18,9 +18,9 @@ if [ -z $2 ] && CLAVE_GMAIL="$2"
 sed -i 's/^mailhub=.*/mailhub=smtp.gmail.com:587/g' /etc/ssmtp/ssmtp.conf
 sed -i 's/^#FromLineOverride=YES/FromLineOverride=YES/g' /etc/ssmtp/ssmtp.conf
 sudo echo "[GMAIL]
-AuthUser=USUARIO_GMAIL@gmail.com
-AuthPass=CLAVE_GMAIL
+AuthUser=$USUARIO_GMAIL@gmail.com
+AuthPass=$CLAVE_GMAIL
 UseSTARTTLS=YES">> /etc/ssmtp/ssmtp.conf
 
 echo 'Prueba de correo con ssmtp'
-ssmtp $1 < ~/configs/ssmtp/correoDePrueba.txt
+ssmtp $USUARIO_GMAIL@gmail.com < ~/configs/ssmtp/correoDePrueba.txt

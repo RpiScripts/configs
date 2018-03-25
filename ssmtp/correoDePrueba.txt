@@ -2,4 +2,4 @@ To: ENCAPY@gmail.com
 From: $USUARIO_GMAIL@gmail.com
 Subject: Prueba de correo
 
-El servidor de correo está en funcionamiento.
+El paquete ssmtp ha sido instalado con éxito.

@@ -1,5 +1,5 @@
-To: $1@gmail.com
-From: ssmtp.sh
+To: ENCAPY@gmail.com
+From: $USUARIO_GMAIL@gmail.com
 Subject: Prueba de correo
 
 El servidor de correo está en funcionamiento.

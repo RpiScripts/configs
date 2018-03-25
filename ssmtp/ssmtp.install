@@ -23,5 +23,5 @@ AuthPass=$CLAVE_GMAIL
 UseSTARTTLS=YES">> /etc/ssmtp/ssmtp.conf
 
 echo 'Prueba de correo con ssmtp'
-envio=`ssmtp $USUARIO_GMAIL@gmail.com < ~/configs/ssmtp/correoDePrueba.txt´
+envio=`ssmtp $USUARIO_GMAIL@gmail.com < ~/configs/ssmtp/correoDePrueba.txt`
 echo $envio
